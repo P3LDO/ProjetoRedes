@@ -1,6 +1,6 @@
-@charset "UDF-8"
+@charset "UDF-8";
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +21,6 @@ body{
 main{
     height: 100vh;
     position: relative;
-    background-color: black;
 }
 
 section#Cel{
@@ -32,4 +31,12 @@ section#Cel{
     height: 627px;
     width: 311px;
     background: url(../ProjetoRedes/arquivos/pacote-d013/imagens/frame-iphone.png) no-repeat;
+}
+
+iframe#Tela { 
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
