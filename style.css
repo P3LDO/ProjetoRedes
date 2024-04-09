@@ -40,3 +40,21 @@ iframe#Tela {
     width: 269px;
     height: 471px;
 }
+
+section#Redes{
+    text-align: right;
+}
+
+section#Redes img{
+    width: 75px;
+    margin: 7.5px;
+    border-radius: 50%;   
+    box-sizing: border-box;
+}
+
+section#Redes img:hover{
+    transform: (-3PX);
+    transition: 0.5s;
+    width: 80px;
+    border: solid rgba(255, 255, 255, 0.253);
+}
